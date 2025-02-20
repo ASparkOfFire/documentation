@@ -1,7 +1,14 @@
-== Introducing the Raspberry Pi Cameras
+This documentation describes how to use supported camera modules with our software tools. All Raspberry Pi cameras can record high-resolution photographs and full HD 1080p video (or better) with our software tools.
 
-Raspberry Pi currently sell two types of camera board: an https://www.raspberrypi.com/products/camera-module-v2/[8MP device] and a https://www.raspberrypi.com/products/raspberry-pi-high-quality-camera/[12MP High Quality (HQ)] camera. The 8MP device is also available in https://www.raspberrypi.com/products/pi-noir-camera-v2/[NoIR form] without an IR filter. The original 5MP device is no longer available from Raspberry Pi. Further details on the camera modules can be found in the xref:../accessories/camera.adoc#camera-modules[camera hardware] page.
+Raspberry Pi produces several official camera modules, including:
 
-All Raspberry Pi cameras are capable of taking high-resolution photographs, along with full HD 1080p video, and can be fully controlled programmatically. This documentation describes how to use the camera in various scenarios, and how to use the various software tools.
+* the original 5-megapixel Camera Module 1 (discontinued)
+* the 8-megapixel https://www.raspberrypi.com/products/camera-module-v2/[Camera Module 2], with or without an infrared filter
+* the 12-megapixel https://raspberrypi.com/products/camera-module-3/[Camera Module 3], with both standard and wide lenses, with or without an infrared filter
+* the 12-megapixel https://www.raspberrypi.com/products/raspberry-pi-high-quality-camera/[High Quality Camera] with CS and M12 mount variants for use with external lenses
+* the 1.6-megapixel https://www.raspberrypi.com/products/raspberry-pi-global-shutter-camera/[Global Shutter Camera] for fast motion photography
+* the 12-megapixel https://www.raspberrypi.com/products/ai-camera/[AI Camera] uses the Sony IMX500 imaging sensor to provide low-latency, high-performance AI capabilities to any camera application
 
-Once you've xref:../accessories/camera.adoc#installing-a-raspberry-pi-camera[installed your camera module], there are various ways the cameras can be used. The simplest option is to use one of the provided camera applications, such as `libcamera-still` or `libcamera-vid`.
+For more information about camera hardware, see the xref:../accessories/camera.adoc#about-the-camera-modules[camera hardware documentation].
+
+First, xref:../accessories/camera.adoc#install-a-raspberry-pi-camera[install your camera module]. Then, follow the guides in this section to put your camera module to use.
